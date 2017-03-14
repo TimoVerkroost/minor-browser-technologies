@@ -1,2 +1,4 @@
-# minor-browser-technologies
+# Browser Technologies
 All assignments for Browser Technologies
+
+
