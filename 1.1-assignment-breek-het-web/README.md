@@ -57,6 +57,7 @@ Save data to the storage of the browser can be a easy get away for performance i
 #### How can I test it
 *   Use private modes of the browser for example Safari
 *   Use Opera Mini to test it.
+*   Test on [http://html5demos.com/storage](http://html5demos.com/storage)
 
 #### Example websites with this problem
 *   [TypeKit](https://typekit.com/) is using LocalStorage to save the text that you want to use for testing a font. Luckily this is a feature that is not essential for the website but it's nice to have.
