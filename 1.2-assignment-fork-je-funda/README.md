@@ -54,8 +54,6 @@ List with possible improvements that can be used in my Funda app.
     ```
 *   Did not use icon fonts, a good thing :)
 *   For icons there are SVG added to the page.
-
-    ![icon images](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/icons-example-svg.png "Icon images")
     ```css
     .icon-heart-white {
         background: url(../images/heart.svg) no-repeat;
@@ -65,6 +63,9 @@ List with possible improvements that can be used in my Funda app.
         background: url(../images/idea-light.svg) no-repeat;
     }
     ```
+
+![icon images](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/icons-example-svg.png "Icon images")
+  
 
 ### Color
 *   The page uses the colors that Funda also uses.
