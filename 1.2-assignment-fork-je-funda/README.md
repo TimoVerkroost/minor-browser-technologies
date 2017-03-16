@@ -66,6 +66,13 @@ List with possible improvements that can be used in my Funda app.
     ```
 
 ### Color
+*   The page uses the colors that Funda also uses.
+*   I downloaded the tool "Sim Daltonism", then placed the lens on my app. The conclusion is that de contrast of the colors are high enough to see the difference between teh elements.
+    ![color blind image](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/colorblind-example.png "color blind image")
+*   Also tested it with black and white for eReaders.
+*   Although I think the orange color that Funda uses will harder visible with sunlight on the screen, because it's a light color, a darker color will do better in that situation.
+*   On [WebAIM](http://webaim.org/) I checked the contrast ratio with the result **2.09:1**, this is to low if we have to believe [WCAG 2.0](http://www.w3.org/TR/WCAG20/) for AA we need a minimum of 4.5:1 and for AAA 7:1 ratio.
+    
 
 ### JavaScript
 
