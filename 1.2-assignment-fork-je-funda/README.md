@@ -95,7 +95,7 @@ List with possible improvements that can be used in my Funda app.
     }
     ```
     *   The app must have a refactor so it doesn't relay on localStorage, although we can use the enhance the app for a better experience.
-![localStorage](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/localstorage-example.png "localStorage")
+    * ![localStorage](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/localstorage-example.png "localStorage")
 
 ### Broadband internet
 
