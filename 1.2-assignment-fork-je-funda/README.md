@@ -95,8 +95,16 @@ List with possible improvements that can be used in my Funda app.
     }
     ```
     *   The app must have a refactor so it doesn't relay on localStorage, although we can use the enhance the app for a better experience.
-    * ![localStorage](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/localstorage-example.png "localStorage")
+    
+    ![localStorage](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/localstorage-example.png "localStorage")
 
 ### Broadband internet
+*   The base page is loaded in a second but the images.
+    *   The images can be lazy loaded so they loaded when the user gets there
+    *   If the user don't want to load images the ALT-tag have to show.
+*   Can use "defer" on script tags so they loaded but executed when ready.
+*   Load CSS after page is loaded.
+*   Critical CSS added so the users always sees the Above the fold.
+![Load timeline](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/lload-order-example.png "Load timeline")
 
 ### Mouse/Trackpad won't work
