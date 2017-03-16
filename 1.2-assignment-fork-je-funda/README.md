@@ -35,6 +35,7 @@ List with possible improvements that can be used in my Funda app.
 ### Custom fonts
 *   The app is using 1 custom font that is loaded from the server it self.
 *   The font already has a similar classification fallback font named Serif.
+*   Serif is the fallback, and is widely supported.
     ```css
         @font-face {
             font-family: "Proxima Nova";
