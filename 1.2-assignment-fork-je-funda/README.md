@@ -111,3 +111,14 @@ List with possible improvements that can be used in my Funda app.
 ![Load timeline](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/load-order-example.png "Load timeline")
 
 ### Mouse/Trackpad won't work
+*   Tabbing thought the page is possible because of use default HTML elements.
+*   If the user tabs the focus of the element will appear.
+
+![Focus 1](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-1.png "Focus 1")
+
+![Focus 2](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-2.png "Focus 2")
+
+![Focus 3](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-3.png "Focus 3")
+
+*   Tested also a screen reader, the page is understandable but the reader says also allot of crap...
+
