@@ -72,13 +72,30 @@ List with possible improvements that can be used in my Funda app.
 *   Also tested it with black and white for eReaders.
 *   Although I think the orange color that Funda uses will harder visible with sunlight on the screen, because it's a light color, a darker color will do better in that situation.
 *   On [WebAIM](http://webaim.org/) I checked the contrast ratio with the result **2.09:1**, this is to low if we have to believe [WCAG 2.0](http://www.w3.org/TR/WCAG20/) for AA we need a minimum of 4.5:1 and for AAA 7:1 ratio.
+    *   The improvement we can do is make the orange color darker.
     
-
 ### JavaScript
+*   The whole app relays on JavaScript, so when we have no JavaScript the app won't work
+    *   The AJAX calls need JavaScript, when AJAX calls are impossible 95% of the content is empty only the menu and footer will appear.
+    ![nojs image](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/nojs-example.png "nojs image")
+*   Serverside I can redirect the user to a page that works without JavaScript, but even then the houses can't be loaded because we can't make an API call.
+    * What we can do is give the user feedback that he or she can't search for houses right now but we can give them some default selected houses or other relevant content.
 
 #### Cookies
+*   No cookies where used.
 
 #### LocalStorage
+*   The app is build with data that is saved in LocalStorage for the performance.
+    *   A part of the app has a fallback for localStorage where the data is stored in an object.
+    ```js
+    if (typeof(Storage) !== "undefined") {
+        // Code for localStorage/sessionStorage.
+    } else {
+        // Fallback (can be object storage)
+    }
+    ```
+    *   The app must have a refactor so it doesn't relay on localStorage, although we can use the enhance the app for a better experience.
+![localStorage](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/localstorage-example.png "localStorage")
 
 ### Broadband internet
 
