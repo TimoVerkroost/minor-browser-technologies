@@ -1,7 +1,13 @@
 # Assignment 1.2 - Fork je Funda
 List with possible improvements that can be used in my Funda app.
+The app can be found at: https://studie.timoverkroost.nl/minor-funda/live/ (login will be required so if you want to view the app just ask me).
+
+## Default view of app
+
+![default-view](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/default-view.png "default-view")
 
 ## Refactor tips
+Tips that can prevent or make better errors at the client side of the app. Also the findings I have about the app. Most of this tips came from the Browser Technologies lessons I followed. Some of the findings I was already beware of but there was simply no time to fix them in the week that I build the quick prototype.
 
 ### Images
 *   Most of the images will load Async with AJAX calls to the Funda API, so add first they will load after the HTML, CSS and JS is loaded. (there is a loading indicator)
