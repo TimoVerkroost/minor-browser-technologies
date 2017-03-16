@@ -2,6 +2,19 @@
 List with possible improvements that can be used in my Funda app.
 The app can be found at: https://studie.timoverkroost.nl/minor-funda/live/ (login will be required so if you want to view the app just ask me).
 
+## Table of contents
+
+*   [Default view of app](#Ddefault-view-of-app)
+*   [Refactor tips](#refactor-tips)
+    *   [Images](#images)
+    *   [Custom fonts](#custom-fonts)
+    *   [Color](#color)
+    *   [JavaScript](#javascript)
+        *   [Cookies](#cookies)
+        *   [LocalStorage](#localstorage)
+    *   [Broadband internet](#broadband-internet)
+    *   [Mouse/Trackpad won't work](#mousetrackpad-wont-work)
+
 ## Default view of app
 
 ![default-view](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/default-view.png "default-view")
