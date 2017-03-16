@@ -38,6 +38,9 @@ Tips that can prevent or make better errors at the client side of the app. Also 
         <img alt="Description of the image" src="http://cloud.funda.nl/377_groot.jpg">
     </picture>
     ```
+* If the images don't load the page won't break and the ALT-tags appear.
+
+![no images](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/no-example.png "No images")
 
 ### Custom fonts
 *   The app is using 1 custom font that is loaded from the server it self.
