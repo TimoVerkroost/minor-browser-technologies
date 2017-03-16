@@ -18,16 +18,18 @@ List with possible improvements that can be used in my Funda app.
 *   Suggest Funda to also support webp images, this format is smaller the png or jpeg so it will load faster. We have to put this in a picture element because we need a fallback for browser that do not support webp.
     ```html
     <picture>
-    <!-- Webp images -->
-      <source type="image/webp" srcset="http://cloud.funda.nl/377_groot.webp" media="(min-width: 640px)">
-      <source type="image/webp" srcset="http://cloud.funda.nl/377_middel.webp" media="(min-width: 320px)">
-      <source type="image/webp" srcset="http://cloud.funda.nl/377_klein.webp">
-    <!-- Fallback for not supported browsers -->
-      <source srcset="http://cloud.funda.nl/377_groot.jpg" media="(min-width: 640px)">
-      <source srcset="http://cloud.funda.nl/377_middel.jpg" media="(min-width: 320px)">
-      <source srcset="http://cloud.funda.nl/377_klein.jpg">
-    <!-- Fallback for srcset -->
-      <img alt="Description of the image" src="http://cloud.funda.nl/377_groot.jpg">
+        <!-- Webp images -->
+        <source type="image/webp" srcset="http://cloud.funda.nl/377_groot.webp" media="(min-width: 640px)">
+        <source type="image/webp" srcset="http://cloud.funda.nl/377_middel.webp" media="(min-width: 320px)">
+        <source type="image/webp" srcset="http://cloud.funda.nl/377_klein.webp">
+        
+        <!-- Fallback for not supported browsers -->
+        <source srcset="http://cloud.funda.nl/377_groot.jpg" media="(min-width: 640px)">
+        <source srcset="http://cloud.funda.nl/377_middel.jpg" media="(min-width: 320px)">
+        <source srcset="http://cloud.funda.nl/377_klein.jpg">
+    
+        <!-- Fallback for srcset -->
+        <img alt="Description of the image" src="http://cloud.funda.nl/377_groot.jpg">
     </picture>
     ```
 
