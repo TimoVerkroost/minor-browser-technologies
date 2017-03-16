@@ -54,6 +54,7 @@ List with possible improvements that can be used in my Funda app.
     ```
 *   Did not use icon fonts, a good thing :)
 *   For icons there are SVG added to the page.
+
     ![icon images](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/icons-example-svg.png "Icon images")
     ```css
     .icon-heart-white {
@@ -68,6 +69,7 @@ List with possible improvements that can be used in my Funda app.
 ### Color
 *   The page uses the colors that Funda also uses.
 *   I downloaded the tool "Sim Daltonism", then placed the lens on my app. The conclusion is that de contrast of the colors are high enough to see the difference between teh elements.
+
     ![color blind image](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/colorblind-example.png "color blind image")
 *   Also tested it with black and white for eReaders.
 *   Although I think the orange color that Funda uses will harder visible with sunlight on the screen, because it's a light color, a darker color will do better in that situation.
@@ -77,6 +79,7 @@ List with possible improvements that can be used in my Funda app.
 ### JavaScript
 *   The whole app relays on JavaScript, so when we have no JavaScript the app won't work
     *   The AJAX calls need JavaScript, when AJAX calls are impossible 95% of the content is empty only the menu and footer will appear.
+    
     ![nojs image](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/nojs-example.png "nojs image")
 *   Serverside I can redirect the user to a page that works without JavaScript, but even then the houses can't be loaded because we can't make an API call.
     * What we can do is give the user feedback that he or she can't search for houses right now but we can give them some default selected houses or other relevant content.
@@ -105,6 +108,6 @@ List with possible improvements that can be used in my Funda app.
 *   Can use "defer" on script tags so they loaded but executed when ready.
 *   Load CSS after page is loaded.
 *   Critical CSS added so the users always sees the Above the fold.
-![Load timeline](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/lload-order-example.png "Load timeline")
+![Load timeline](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/load-order-example.png "Load timeline")
 
 ### Mouse/Trackpad won't work
