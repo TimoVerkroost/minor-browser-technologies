@@ -52,6 +52,7 @@ List with possible improvements that can be used in my Funda app.
         }
     ```
 *   Did not use icon fonts, a good thing :)
+*   For icons there are SVG added to the page.
 
 ### Color
 
