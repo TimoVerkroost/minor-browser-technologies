@@ -4,7 +4,7 @@ The app can be found at: https://studie.timoverkroost.nl/minor-funda/live/ (logi
 
 ## Table of contents
 
-*   [Default view of app](#Ddefault-view-of-app)
+*   [Default view of app](#default-view-of-app)
 *   [Refactor tips](#refactor-tips)
     *   [Images](#images)
     *   [Custom fonts](#custom-fonts)
