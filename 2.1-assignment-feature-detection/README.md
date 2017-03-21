@@ -111,6 +111,23 @@ To use this element it's required to use a browser vendor prefix otherwise it do
 #### Fallback
 If the browser doesn't support it the fallback will always be the basic style of the element what is was before the reset. This feature is a good example of an enhancement because the default always works and when we need to make it shiny we can do that without breaking stuff.
 
+For now the default appearance without prefix doesn't do anything but it's recommended to use it because maybe in the future it does work.
+
+```css
+    input[type="search"],
+    select {
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        /* without prefix it doesn't work for now but maybe later it does */
+        appearance:         none;
+        /* styling what can be done after appearance: none */
+        border-radius: 0;
+        border: .1em solid royalblue;
+        padding: 1em 2em;
+        background-color: aquamarine;
+    }
+```
+
 #### Demo link
 [Demo link Appearance](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-1.html)
 

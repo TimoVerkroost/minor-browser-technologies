@@ -9,12 +9,30 @@
             padding: 0;
             margin: 0;
         }
+        input[type="search"],
+        select {
+            -webkit-appearance: none;
+            -moz-appearance:    none;
+            /* without prefix it doesn't work for now but maybe later it does */
+            appearance:         none;
+            /* styling what can be done after appearance: none */
+            border-radius: 0;
+            border: .1em solid royalblue;
+            padding: 1em 2em;
+            background-color: aquamarine;
+        }
     </style>
     <title>Appearance property</title>
 </head>
 <body>
 
-
+<input type="search">
+<select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+</select>
 
 </body>
 </html>
