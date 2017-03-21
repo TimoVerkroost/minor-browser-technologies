@@ -92,3 +92,57 @@ If there must be a fallback you can use the select element that is more supporte
 -   [Caniuse](http://caniuse.com/#search=Picture)
 -   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
 -   [Agektmr](https://demo.agektmr.com/datalist/)
+
+#
+
+## CSS feature detection
+
+### NAME element
+
+#### Browser support
+
+#### Fallback
+
+#### Demo link
+
+#### Sources
+
+#
+
+### NAME element
+
+#### Browser support
+
+#### Fallback
+
+#### Demo link
+
+#### Sources
+
+#
+
+## JavaScript feature detection
+
+### NAME element
+
+#### Browser support
+
+#### Fallback
+
+#### Demo link
+
+#### Sources
+
+#
+
+### NAME element
+
+#### Browser support
+
+#### Fallback
+
+#### Demo link
+
+#### Sources
+
+#
