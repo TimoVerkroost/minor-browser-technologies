@@ -11,12 +11,12 @@ This element is very experimental because most older browsers don't support it. 
 ```html
     <picture>
         <!-- Responsive images -->
-        <source srcset="demos/images/1200x800.png" media="(min-width: 37.5em)">
-        <source srcset="demos/images/600x400.png" media="(min-width: 18.75em)">
-        <source srcset="demos/images/300x200.png">
+        <source srcset="images/1200x800.png" media="(min-width: 37.5em)">
+        <source srcset="images/600x400.png" media="(min-width: 18.75em)">
+        <source srcset="images/300x200.png">
     
         <!-- Fallback for srcset - legacy <img> tag -->
-        <img alt="alt-tag" title="title-tag" src="demos/images/600x400.png">
+        <img alt="alt-tag" title="title-tag" src="images/600x400.png">
     </picture>
 ```
 
