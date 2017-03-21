@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        img {
+            max-width: 100%;
+            display: inline-block;
+        }
+    </style>
+    <title>Picture element</title>
+</head>
+<body>
+
+<picture>
+    <!-- Responsive images -->
+    <source srcset="images/1200x800.png" media="(min-width: 37.5em)">
+    <source srcset="images/600x400.png" media="(min-width: 18.75em)">
+    <source srcset="images/300x200.png">
+
+    <!-- Fallback for srcset -->
+    <img alt="alt-tag" title="title-tag" src="images/600x400.png">
+</picture>
+
+</body>
+</html>
