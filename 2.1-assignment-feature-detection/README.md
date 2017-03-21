@@ -71,9 +71,9 @@ If there must be a fallback you can use the select element that is more supporte
     </label>
     <datalist id="browsers">
         <label>
+            or select from the list:
             <select name="myBrowser">
                 <!-- Data that will be pushed in the input field -->
-                or select from the list:
                 <option value="">
                 <option value="Chrome">Chrome
                 <option value="Firefox">Firefox
