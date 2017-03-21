@@ -37,27 +37,50 @@ Because the browser is parsing through the DOM elements and will skip the elemen
 #
 
 ### Datalist element
-The datalist element contains a number of predefined options that can be used in another input field. You can see it as a helper to fill in the input field.
+The datalist element contains a number of predefined options that can be used in another input field. You can see it as a helper/suggestion to fill in the input field.
 
 #### Browser support
 ![Datalist support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-datalist.png "Datalist support")
 
 #### Fallback
+There is no direct fallback for datalist, if the browser doesn't support it the input type will be shown without the suggestions or predefined input. So it doesn't break anything it's only an enhancement.
 
-
+If there must be a fallback you can use the select element that is more supported. But not in every browser. If the browser also doesn't support it will be a text input type so it won't break.
 
 ```html
     <label>
         Choose a browser from this list:
+        <!-- Link to the datalist -->
         <input list="browsers" name="myBrowser" />
     </label>
     <datalist id="browsers">
+        <!-- Data that will be pushed in the input field -->
         <option value="Chrome">
         <option value="Firefox">
         <option value="Internet Explorer">
         <option value="Opera">
         <option value="Safari">
         <option value="Microsoft Edge">
+    </datalist>
+    
+    <!-- Fallback if browser doesn't support datalist then will the select shown -->
+    <label>
+        Choose a browser from this list:
+        <!-- Link to the datalist -->
+        <input list="browsers" name="myBrowser" >
+    </label>
+    <datalist id="browsers">
+        <label>
+            <select name="browsers">
+                <!-- Data that will be pushed in the input field -->
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Microsoft Edge">
+            </select>
+        </label>
     </datalist>
 ```
 
@@ -68,3 +91,4 @@ The datalist element contains a number of predefined options that can be used in
 -   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 -   [Caniuse](http://caniuse.com/#search=Picture)
 -   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
+-   [Agektmr](https://demo.agektmr.com/datalist/)
