@@ -20,6 +20,8 @@ This element is very experimental because most older browsers don't support it. 
     </picture>
 ```
 
+[Demo link](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-html-1.html)
+
 #### Sources
 -   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 -   [Caniuse](http://caniuse.com/#search=Picture)
