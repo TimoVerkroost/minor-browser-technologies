@@ -8,7 +8,7 @@ The Picture element is a container for multiple image sources which loaded based
 #### Browser support
 ![Picture support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-picture.png "Picture support")
 
-### Fallback
+#### Fallback
 This element is very experimental because most older browsers don't support it. On the other hand it's very easy to place a fallback in the picture tag, simply place on the end of the tag the legacy img tag.
 
 Because the browser is parsing through the DOM elements and will skip the elements it won't support, the fallback needs to be just before the closing of the picture element, otherwise it won't work.
@@ -25,11 +25,46 @@ Because the browser is parsing through the DOM elements and will skip the elemen
     </picture>
 ```
 
-### Demo link
-[Demo link](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-html-1.html)
+#### Demo link
+[Demo link picture](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-html-1.html)
 
 #### Sources
 -   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 -   [Caniuse](http://caniuse.com/#search=Picture)
 -   [HTML5test](http://html5test.com/compare/feature/responsive.picture.html)
+-   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
+
+#
+
+### Datalist element
+The datalist element contains a number of predefined options that can be used in another input field. You can see it as a helper to fill in the input field.
+
+#### Browser support
+![Datalist support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-datalist.png "Datalist support")
+
+#### Fallback
+
+
+
+```html
+    <label>
+        Choose a browser from this list:
+        <input list="browsers" name="myBrowser" />
+    </label>
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Internet Explorer">
+        <option value="Opera">
+        <option value="Safari">
+        <option value="Microsoft Edge">
+    </datalist>
+```
+
+#### Demo link
+[Demo link datalist](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-html-2.html)
+
+#### Sources
+-   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+-   [Caniuse](http://caniuse.com/#search=Picture)
 -   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
