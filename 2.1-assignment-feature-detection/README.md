@@ -90,9 +90,9 @@ If there must be a fallback you can use the select element that is more supporte
 [Demo link datalist](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-html-2.html)
 
 #### Sources
--   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
--   [Caniuse](http://caniuse.com/#search=Picture)
--   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
+-   [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
+-   [Caniuse](http://caniuse.com/#search=datalist)
+-   [Whatwg](https://html.spec.whatwg.org/multipage/forms.html#the-datalist-element)
 -   [Agektmr](https://demo.agektmr.com/datalist/)
 -   [Devcurry](http://www.devcurry.com/2011/08/html-5-datalist-element-with-fallback.html)
 
@@ -100,15 +100,19 @@ If there must be a fallback you can use the select element that is more supporte
 
 ## CSS feature detection
 
-### NAME element
+### Appearance property
+The appearance property defines how elements will look by default, this can be different in every browser. If the developer choices to not use this default styling he/she can disable it with appearance: none; now it's possible to style the element with other CSS properties.
 
 #### Browser support
+![Appearance support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-appearance.png "Appearance support")
 
 #### Fallback
 
 #### Demo link
+[Demo link Appearance](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-1.html)
 
 #### Sources
+-   [Caniuse](hhttp://caniuse.com/#search=appearance)
 
 #
 
