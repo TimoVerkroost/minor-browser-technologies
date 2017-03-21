@@ -101,19 +101,23 @@ If there must be a fallback you can use the select element, this element is supp
 ## CSS feature detection
 
 ### Appearance property
-The appearance property defines how elements will look by default, this can be different in every browser. If the developer choices to not use this default styling he/she can disable it with appearance: none; now it's possible to style the element with other CSS properties.
+The appearance property defines how elements will look by default, this is based on the users operating system's theme. If the developer choices to not use this default styling he/she can disable it with appearance: none; now it's possible to style the element with other CSS properties. You can also let input fields look like other input fields.
+
+To use this element it's required to use a browser vendor prefix otherwise it doesn't work.
 
 #### Browser support
 ![Appearance support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-appearance.png "Appearance support")
 
 #### Fallback
-
+If the browser doesn't support it the fallback will always be the basic style of the element what is was before the reset. This feature is a good example of an enhancement because the default always works and when we need to make it shiny we can do that without breaking stuff.
 
 #### Demo link
 [Demo link Appearance](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-1.html)
 
 #### Sources
 -   [Caniuse](hhttp://caniuse.com/#search=appearance)
+-   [Csswg](https://drafts.csswg.org/css-ui-4/#appearance-switching)
+-   [CSS tricks](https://css-tricks.com/almanac/properties/a/appearance/)
 
 #
 
