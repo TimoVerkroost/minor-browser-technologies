@@ -45,7 +45,7 @@ The datalist element contains a number of predefined options that can be used in
 #### Fallback
 There is no direct fallback for datalist, if the browser doesn't support it the input type will be shown without the suggestions or predefined input. So it doesn't break anything it's only an enhancement.
 
-If there must be a fallback you can use the select element that is more supported. But not in every browser. If the browser also doesn't support it will be a text input type so it won't break.
+If there must be a fallback you can use the select element, this element is supported in all the browsers.
 
 ```html
     <label>
@@ -107,6 +107,7 @@ The appearance property defines how elements will look by default, this can be d
 ![Appearance support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-appearance.png "Appearance support")
 
 #### Fallback
+
 
 #### Demo link
 [Demo link Appearance](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-1.html)
