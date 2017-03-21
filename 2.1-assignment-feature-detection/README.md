@@ -94,6 +94,7 @@ If there must be a fallback you can use the select element that is more supporte
 -   [Caniuse](http://caniuse.com/#search=Picture)
 -   [Whatwg](https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element)
 -   [Agektmr](https://demo.agektmr.com/datalist/)
+-   [Devcurry](http://www.devcurry.com/2011/08/html-5-datalist-element-with-fallback.html)
 
 #
 
