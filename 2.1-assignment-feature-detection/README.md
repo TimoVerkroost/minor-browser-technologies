@@ -226,6 +226,11 @@ Declares a constant with block level scope, so it's identifier won't be reassign
 #### Fallback
 Because const is an ES6 deceleration we can check if the browser does support this ES version. When it does support is we can use a script with ES6 and otherwise we can use an older variant like ES5.
 
+When the the browser is checked for ES6 support and it support it a script will pushed into the head with ES6 functionaries in it like const. When the browser doesn't support ES6 an ES5 script will be pushed in the head instead of the ES6 script. The downside will be that we need 2 scripts on the server one for ES5 and one for ES6 support.
+
+If we wanted to make one script that is for all browsers we can use a transpiler/ compiler for example Babel. This will convert ES6 code to more supported ES5 code. This isn't 100% save if we have to believe Babel because they can't cover everything.
+
+The other option will be to not use "const" add all and only use "var" because var will be working everywhere.
 
 #### Demo link
 [Demo link Const](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-js-2.html)
@@ -236,3 +241,10 @@ Because const is an ES6 deceleration we can check if the browser does support th
 -   [ECMA international](http://www.ecma-international.org/ecma-262/6.0/#sec-let-and-const-declarations)
 -   [Generatedcontent](http://generatedcontent.org/post/54444832868/variables-and-constants-in-es6)
 -   [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+-   [Babel](https://babeljs.io/)
+
+#
+
+## Testing
+I started in Google Chrome 57 and then to Windows 7 - IE9 with vitualbox (some have been screenshotted and documented).
+After that I moved to the deviceLAB to do more tests on other devices.
