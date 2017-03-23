@@ -167,16 +167,11 @@ By default the width of the images are "auto" because they won't stretch when th
     }
     
     @supports (object-fit: fill)
-    {
-        img {
-            height: 120px;
-            background-color: #444;
+        {
+            img[class] {
+                width: 100%;
+            }
         }
-    
-        img[class] {
-            width: 100%;
-        }
-    }
  ```
  
  Compare IE9 on the left (no supported) with Chrome 57 on the right (supported):
