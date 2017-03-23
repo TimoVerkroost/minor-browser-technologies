@@ -204,6 +204,7 @@ With the geolocation feature the browser can get the user it's geographical loca
 If JavaScript doesn't work we can't get the geolocation from the user by clicking on the button. For this case I used the "noscript" tag so when there is no JavaScript the user can fill in a form with an address so he or she can fill in the location, maybe handle this address server side to transform it to lat and lng and get this back on the post.
 
 If for some reason the geolocation feature gives an error for example: the user don't wan't to share it with your website, also a form with address info will appear so the user can fill in an address and sent it to the server.
+For browser that don't support "classList" I added style.display = "block".
 
 #### Demo link
 credits to w3schools for the demo, I just modified it.
