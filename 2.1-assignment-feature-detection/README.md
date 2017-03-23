@@ -153,7 +153,7 @@ In CSS you have background-size:contain | cover; to place a image in a element, 
 #### Fallback
 The default fallback is to not use the property so the image or video will not fit to the containing element. Als you can use background-size: cover | contain; but then it's not a HTML image/video anymore and it becomes a "decoration".
 
-By default the width of the images are "auto" because they won't stretch when the object-fit is not supported. But when object-fit is supported (@support) the width is "100%" so the image can stretch but also scale because of the object-fit property so the image will fill the containing element.
+By default the width of the images are "auto" because they won't stretch when the object-fit is not supported. But when object-fit is supported (@support) the width is "100%" so the image can stretch but also scale because of the object-fit property so the image will fill the containing element. For some devices the fixed height will also stretch the image so needed to make this "auto".
  
  ```css
     img {
