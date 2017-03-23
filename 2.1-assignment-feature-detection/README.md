@@ -142,15 +142,27 @@ For now the default appearance without prefix doesn't do anything but it's recom
 
 #
 
-### NAME element
+### Object-fit property
+In CSS you have background-size:contain | cover; to place a image in a element, but then it is a background image that is used for "decoration" what if we want the image to be loaded in the HTML as a "content image" and fit in the element. We can use Object-fit, this property will fit the image in the containing element. This property does not only work for images but also for videos. 
+ 
+ The property is relative new and not widely supported, so in many browser it won't do what it supposed to do.
 
 #### Browser support
+![Object-fit support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-objectfit.png "Object-fit support")
 
 #### Fallback
+The default fallback is to not use the property so the image or video will not fit to the containing element. Als you can use background-size: cover | contain; but then it's not a HTML image/video anymore and it becomes a "decoration". 
 
 #### Demo link
+Credits to CSS-tricks for the demo, I just modified it.
+[Demo link Object-fit](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-2.html)
 
 #### Sources
+-   [Caniuse](http://caniuse.com/#search=object-fit)
+-   [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+-   [Csswg](https://drafts.csswg.org/css-ui-4/#appearance-switching)
+-   [CSS tricks](https://css-tricks.com/almanac/properties/o/object-fit/)
+-   [Opera dev](https://dev.opera.com/articles/css3-object-fit-object-position/)
 
 #
 

@@ -3,24 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Demo source: https://css-tricks.com/almanac/properties/o/object-fit/ -->
     <style>
         body,
         html {
             padding: 0;
             margin: 0;
         }
+
+        .object-fit_fill {
+            -o-object-fit: fill;
+            object-fit: fill;
+        }
+
+        .object-fit_contain {
+            -o-object-fit: contain;
+            object-fit: contain;
+        }
+
+        .object-fit_cover {
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+
+        .object-fit_none {
+            -o-object-fit: none;
+            object-fit: none;
+        }
+
+        .object-fit_scale-down {
+            -o-object-fit: scale-down;
+            object-fit: scale-down;
+        }
+
+        html {
+            color: #eee;
+            padding: 30px;
+            font-family: 'Source Code Pro', Monaco;
+            background-color: #333;
+        }
+
+        p {
+            font-weight: 200;
+            font-size: 13px;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        img {
+            height: 120px;
+            background-color: #444;
+        }
+
+        img[class] {
+            width: 100%;
+        }
+
+        .original-image {
+            margin-bottom: 50px;
+        }
+
+        .image {
+            float: left;
+            width: 40%;
+            margin: 0 30px 20px 0;
+        }
+        .image:nth-child(2n) {
+            clear: left;
+        }
+        .image:nth-child(2n+1) {
+            margin-right: 0;
+        }
     </style>
-    <title>Appearance property</title>
+    <title>Object-fit property</title>
 </head>
 <body>
-<h2>Default appearance is removed and replaced with style and an inline svg background.</h2>
-<input type="search">
-<select>
-    <option>1</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-</select>
+<h2>Object-fit</h2>
+<div class="original-image">
+    <p>original image</p>
+    <img src="images/600x400.png">
+</div>
+
+<div class="image">
+    <p>object-fit: fill</p>
+    <img class="object-fit_fill" src="images/600x400.png">
+</div>
+
+<div class="image">
+    <p>object-fit: contain</p>
+    <img class="object-fit_contain" src="images/600x400.png">
+</div>
+
+<div class="image">
+    <p>object-fit: cover</p>
+    <img class="object-fit_cover" src="images/600x400.png">
+</div>
+
+<div class="image">
+    <p>object-fit: none</p>
+    <img class="object-fit_none" src="images/600x400.png">
+</div>
+
+<div class="image">
+    <p>object-fit: scale-down</p>
+    <img class="object-fit_scale-down" src="images/600x400.png">
+</div>
 
 </body>
 </html>
