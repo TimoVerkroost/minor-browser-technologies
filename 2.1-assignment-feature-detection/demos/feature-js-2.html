@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <title>Const deceleration</title>
+</head>
+<body>
+<h2>Const</h2>
+
+<script>
+    // Check if ES6 is supported by the browser
+    // Credits to stackoverflow user: Marco Bonelli, I just modified it.
+    // http://stackoverflow.com/questions/29046635/javascript-es6-cross-browser-detection#29046739
+    if (check()) {
+        const yesConst = "YES";
+        console.log(yesConst);
+    } else {
+        var noConst = "NO";
+        console.log(noConst);
+    }
+
+    function check() {
+        if (typeof SpecialObject == "undefined") return false;
+        try { specialFunction(); }
+        catch (e) { return false; }
+
+        return true;
+    }
+</script>
+
+</body>
+</html>

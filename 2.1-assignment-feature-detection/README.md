@@ -207,7 +207,7 @@ If for some reason the geolocation feature gives an error for example: the user 
 For browser that don't support "classList" I added style.display = "block".
 
 #### Demo link
-credits to w3schools for the demo, I just modified it.
+Credits to w3schools for the demo, I just modified it.
 [Demo link Geolocation](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-js-1.html)
 
 #### Sources
@@ -217,14 +217,22 @@ credits to w3schools for the demo, I just modified it.
 
 #
 
-### NAME element
+### Const deceleration
+Declares a constant with block level scope, so it's identifier won't be reassigned. It's used in ES6 for better declaration of the JavaScript code, but it does basically the same as the legacy "var".
 
 #### Browser support
+![Const support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-const.png "Const support")
 
 #### Fallback
+Because const is an ES6 deceleration we can check if the browser does support this ES version. When it does support is we can use a script with ES6 and otherwise we can use an older variant like ES5.
+
 
 #### Demo link
+[Demo link Const](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-js-2.html)
 
 #### Sources
-
-#
+-   [Medium](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.kc7qo8llr)
+-   [Caniuse](http://caniuse.com/#feat=const)
+-   [ECMA international](http://www.ecma-international.org/ecma-262/6.0/#sec-let-and-const-declarations)
+-   [Generatedcontent](http://generatedcontent.org/post/54444832868/variables-and-constants-in-es6)
+-   [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
