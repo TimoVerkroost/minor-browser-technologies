@@ -52,7 +52,7 @@
         }
 
         img {
-            height: 120px;
+            height: 100%;
             max-width: 100%;
             background-color: #444;
         }
@@ -63,6 +63,10 @@
 
         @supports (object-fit: fill)
         {
+            img {
+                height: 120px;
+            }
+
             img[class] {
                 width: 100%;
             }
