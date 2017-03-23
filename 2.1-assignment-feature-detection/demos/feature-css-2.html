@@ -11,6 +11,8 @@
             margin: 0;
         }
 
+
+
         .object-fit_fill {
             -o-object-fit: fill;
             object-fit: fill;
@@ -39,7 +41,6 @@
         html {
             color: #eee;
             padding: 30px;
-            font-family: 'Source Code Pro', Monaco;
             background-color: #333;
         }
 
@@ -49,14 +50,26 @@
             margin-bottom: 10px;
             margin-top: 0;
         }
-
         img {
             height: 120px;
+            max-width: 100%;
             background-color: #444;
         }
 
         img[class] {
-            width: 100%;
+            width: auto;
+        }
+
+        @supports (object-fit: fill)
+        {
+            img {
+                height: 120px;
+                background-color: #444;
+            }
+
+            img[class] {
+                width: 100%;
+            }
         }
 
         .original-image {
