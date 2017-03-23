@@ -246,5 +246,5 @@ The other option will be to not use "const" add all and only use "var" because v
 #
 
 ## Testing
-I started in Google Chrome 57 and then to Windows 7 - IE9 with vitualbox (some have been screenshotted and documented).
+I started in Google Chrome 57 and then to Windows 7 - IE9 with VirtualBox (some have been screenshotted and documented).
 After that I moved to the deviceLAB to do more tests on other devices.
