@@ -19,12 +19,23 @@
     // Check if ES6 is supported by the browser
     // Credits to stackoverflow user: Marco Bonelli, I just modified it.
     // http://stackoverflow.com/questions/29046635/javascript-es6-cross-browser-detection#29046739
+
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
     if (check()) {
-        const yesConst = "YES";
+        var yesConst = "YES";
         console.log(yesConst);
+
+        script.type= 'text/javascript';
+        script.src= 'es6.js';
+        head.appendChild(script);
     } else {
         var noConst = "NO";
         console.log(noConst);
+
+        script.type= 'text/javascript';
+        script.src= 'es5.js';
+        head.appendChild(script);
     }
 
     function check() {
