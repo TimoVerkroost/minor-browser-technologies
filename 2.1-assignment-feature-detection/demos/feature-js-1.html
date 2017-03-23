@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- credits to w3schools for the demo, I just modified it https://www.w3schools.com/html/html5_geolocation.asp -->
+    <style>
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+
+        input {
+            width: 20em;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+    <title>Geolocation feature</title>
+</head>
+<body>
+<h2>Geolocation</h2>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Get lat and lng</button>
+
+<p id="demo"></p>
+
+<form id="geoErrorForm" class="hidden" method="post" action="/">
+    <fieldset>
+        <legend>Address</legend>
+        <label>
+            Street + number:<br>
+            <input type="text" placeholder="Example: Nieuwe Herengracht 49"><br>
+            <small>Example: Nieuwe Herengracht 49</small>
+        </label>
+        <br>
+        <br>
+        <label>
+            Zipcode:<br>
+            <input type="text" placeholder="Example: 1011 RN"><br>
+            <small>Example: 1011 RN</small>
+        </label>
+        <br>
+        <br>
+        <label>
+            City:<br>
+            <input type="text" placeholder="Example: Amsterdam"><br>
+            <small>Example: Amsterdam</small>
+        </label>
+    </fieldset>
+</form>
+
+<script>
+    var x = document.getElementById("demo");
+    var formError = document.getElementById("geoErrorForm");
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+    }
+
+    function showError(error) {
+        switch(error.code) {
+            case error.PERMISSION_DENIED:
+                x.innerHTML = "User denied the request for Geolocation.";
+                formError.classList.remove("hidden");
+                break;
+            case error.POSITION_UNAVAILABLE:
+                x.innerHTML = "Location information is unavailable.";
+                formError.classList.remove("hidden");
+                break;
+            case error.TIMEOUT:
+                x.innerHTML = "The request to get user location timed out.";
+                formError.classList.remove("hidden");
+                break;
+            case error.UNKNOWN_ERROR:
+                x.innerHTML = "An unknown error occurred.";
+                formError.classList.remove("hidden");
+                break;
+        }
+    }
+</script>
+
+<noscript>
+    <form id="noJsForm" method="post" action="/">
+        <fieldset>
+            <legend>Address</legend>
+            <label>
+                Street + number:<br>
+                <input type="text" placeholder="Example: Nieuwe Herengracht 49"><br>
+                <small>Example: Nieuwe Herengracht 49</small>
+            </label>
+            <br>
+            <br>
+            <label>
+                Zipcode:<br>
+                <input type="text" placeholder="Example: 1011 RN"><br>
+                <small>Example: 1011 RN</small>
+            </label>
+            <br>
+            <br>
+            <label>
+                City:<br>
+                <input type="text" placeholder="Example: Amsterdam"><br>
+                <small>Example: Amsterdam</small>
+            </label>
+        </fieldset>
+    </form>
+</noscript>
+
+</body>
+</html>

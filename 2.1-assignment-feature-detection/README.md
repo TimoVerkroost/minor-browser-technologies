@@ -192,15 +192,27 @@ Credits to CSS-tricks for the demo, I just modified it.
 
 ## JavaScript feature detection
 
-### NAME element
+### Geolocation feature
+With the geolocation feature the browser can get the user it's geographical location. The output in the browser is Latitude and Longitude, with this data you can for example use Google Maps to place a marker on the location of the user.
+ 
+**Note:** most browser ask the user first if they want to share their location and then execute the script.
 
 #### Browser support
+![Geo support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-geo.png "Geo support")
 
 #### Fallback
+If JavaScript doesn't work we can't get the geolocation from the user by clicking on the button. For this case I used the "noscript" tag so when there is no JavaScript the user can fill in a form with an address so he or she can fill in the location, maybe handle this address server side to transform it to lat and lng and get this back on the post.
+
+If for some reason the geolocation feature gives an error for example: the user don't wan't to share it with your website, also a form with address info will appear so the user can fill in an address and sent it to the server.
 
 #### Demo link
+credits to w3schools for the demo, I just modified it.
+[Demo link Geolocation](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-js-1.html)
 
 #### Sources
+-   [Caniuse](http://caniuse.com/#search=geolocation)
+-   [w3schools](https://www.w3schools.com/html/html5_geolocation.asp)
+-   [W3C](https://www.w3.org/TR/geolocation-API/)
 
 #
 
