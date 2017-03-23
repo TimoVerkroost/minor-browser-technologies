@@ -47,6 +47,8 @@ There is no direct fallback for datalist, if the browser doesn't support it the 
 
 If there must be a fallback you can use the select element, this element is supported in all the browsers.
 
+![Datalist IE9](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/datalist-ie9.png "Datalist IE9")
+
 ```html
     <label>
         Choose a browser from this list:
@@ -112,6 +114,8 @@ To use this element it's required to use a browser vendor prefix otherwise it do
 If the browser doesn't support it the fallback will always be the basic style of the element what is was before the reset. This feature is a good example of an enhancement because the default always works and when we need to make it shiny we can do that without breaking stuff.
 
 For now the default appearance without prefix doesn't do anything but it's recommended to use it because maybe in the future it does work.
+
+![Appearance IE9](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/appearance-ie9.png "Appearance IE9")
 
 ```css
     input[type="search"],
