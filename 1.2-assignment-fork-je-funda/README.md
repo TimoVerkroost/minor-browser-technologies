@@ -136,9 +136,13 @@ Tips that can prevent or make better errors at the client side of the app. Also 
 *   Tabbing thought the page is possible because of use default HTML elements.
 *   If the user tabs the focus of the element will appear.
 *   Tested also a screen reader, the page is understandable but the reader says also allot of crap...
+    *   For more screen reader support I could use aria-labels to make more specific decelerations of the used elements.
 
 ![Focus 3](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-3.png "Focus 3")
 ![Focus 1](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-1.png "Focus 1")
 
 ![Focus 2](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/1.2-assignment-fork-je-funda/images/focus-example-2.png "Focus 2")
 
+## Testing
+Tested in modern browsers: Chrome, Firefox, Opera and Safari (all OS X).
+Also did some tests on BrowserStack for older browsers and browsers OS X doesn't support.
