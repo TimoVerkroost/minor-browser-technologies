@@ -185,7 +185,6 @@ Credits to CSS-tricks for the demo, I just modified it.
 #### Sources
 -   [Caniuse](http://caniuse.com/#search=object-fit)
 -   [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
--   [Csswg](https://drafts.csswg.org/css-ui-4/#appearance-switching)
 -   [CSS tricks](https://css-tricks.com/almanac/properties/o/object-fit/)
 -   [Opera dev](https://dev.opera.com/articles/css3-object-fit-object-position/)
 
