@@ -132,7 +132,7 @@ For now the default appearance without prefix doesn't do anything but it's recom
 [Demo link Appearance](https://timoverkroost.github.io/minor-browser-technologies/2.1-assignment-feature-detection/demos/feature-css-1.html)
 
 #### Sources
--   [Caniuse](hhttp://caniuse.com/#search=appearance)
+-   [Caniuse](http://caniuse.com/#search=appearance)
 -   [Csswg](https://drafts.csswg.org/css-ui-4/#appearance-switching)
 -   [CSS tricks](https://css-tricks.com/almanac/properties/a/appearance/)
 
