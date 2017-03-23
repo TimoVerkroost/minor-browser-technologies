@@ -151,7 +151,37 @@ In CSS you have background-size:contain | cover; to place a image in a element, 
 ![Object-fit support](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/caniuse-objectfit.png "Object-fit support")
 
 #### Fallback
-The default fallback is to not use the property so the image or video will not fit to the containing element. Als you can use background-size: cover | contain; but then it's not a HTML image/video anymore and it becomes a "decoration". 
+The default fallback is to not use the property so the image or video will not fit to the containing element. Als you can use background-size: cover | contain; but then it's not a HTML image/video anymore and it becomes a "decoration".
+
+By default the width of the images are "auto" because they won't stretch when the object-fit is not supported. But when object-fit is supported (@support) the width is "100%" so the image can stretch but also scale because of the object-fit property so the image will fill the containing element.
+ 
+ ```css
+    img {
+        height: 120px;
+        max-width: 100%;
+        background-color: #444;
+    }
+    
+    img[class] {
+        width: auto;
+    }
+    
+    @supports (object-fit: fill)
+    {
+        img {
+            height: 120px;
+            background-color: #444;
+        }
+    
+        img[class] {
+            width: 100%;
+        }
+    }
+ ```
+ 
+ Compare IE9 on the left (no supported) with Chrome 57 on the right (supported):
+ 
+ ![Object-fit IE9 chrome](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/2.1-assignment-feature-detection/images/objectfit-ie9-chrome.png "Object-fit IE9 chrome")
 
 #### Demo link
 Credits to CSS-tricks for the demo, I just modified it.
