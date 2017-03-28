@@ -5,7 +5,7 @@
     <h2>Search for saved "Nerdy" texts:</h2>
     <form id="nameShirt" action="/search" method="post">
       <label>
-        Your name:<br>
+        <span>Your name:</span><br>
         <input type="text" name="name" id="name" placeholder="Jan-Willem" required value="{{form.name}}">
       </label>
       <br>
@@ -18,14 +18,14 @@
     <h2>Create your "Nerdy" shirt:</h2>
     <form id="createShirt" action="/create" method="post">
       <label>
-        Text:<br>
+        <span>Text:</span><br>
         <input type="radio" name="create" value="{{dataSaved.shirt1}}" required> {{dataSaved.shirt1}}<br>
         {{#if dataSaved.shirt2}}<input type="radio" name="create" value="{{dataSaved.shirt2}}"> {{dataSaved.shirt2}}<br>{{/if}}
         {{#if dataSaved.shirt3}}<input type="radio" name="create" value="{{dataSaved.shirt3}}"> {{dataSaved.shirt3}}{{/if}}
       </label>
       <br>
       <label>
-        Size:<br>
+        <span>Size:</span><br>
         <input type="radio" name="size" value="S" required> S<br>
         <input type="radio" name="size" value="M"> M<br>
         <input type="radio" name="size" value="L"> L

@@ -5,7 +5,7 @@
     <h2>Search for saved "Nerdy" texts:</h2>
     <form id="nameShirt" action="/search" method="post">
       <label>
-        Your name:<br>
+        <span>Your name:</span><br>
         <input type="text" name="name" id="name" placeholder="Jan-Willem" required value="{{form.name}}">
       </label>
       <br>
@@ -18,22 +18,22 @@
     <h2>Save your "Nerdy" texts:</h2>
     <form id="tshirt" action="/saved" method="post">
       <label>
-        Your name:<br>
+        <span>Your name:</span><br>
         <input type="text" name="name" id="name" placeholder="Jan-Willem" required value="{{form.name}}">
       </label>
       <br>
       <label>
-        Your nerdy text:<br>
+        <span>Your nerdy text 1:</span><br>
         <input type="text" name="shirtText1" id="shirtText1" placeholder="This is some super nerdy text!" required value="{{form.shirtText1}}">
       </label>
       <br>
       <label>
-        Your nerdy text:<br>
+        <span>Your nerdy text 2:</span><br>
         <input type="text" name="shirtText2" id="shirtText2" placeholder="This is some super nerdy text!" value="{{form.shirtText2}}">
       </label>
       <br>
       <label>
-        Your nerdy text:<br>
+        <span>Your nerdy text 3:</span><br>
         <input type="text" name="shirtText3" id="shirtText3" placeholder="This is some super nerdy text!" value="{{form.shirtText3}}">
       </label>
       <br>
