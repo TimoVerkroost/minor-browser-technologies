@@ -14,3 +14,7 @@
 ### CSS
 
 ### JavaScript
+
+## Sources
+* [Canisuse](http://caniuse.com/#search=web%20storage)
+* [Whatwg](https://html.spec.whatwg.org/multipage/webstorage.html#webstorage)
