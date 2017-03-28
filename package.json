@@ -16,5 +16,8 @@
   },
   "scripts": {
     "start": "budo --dir app --live"
+  },
+  "dependencies": {
+    "node-localstorage": "^1.3.0"
   }
 }
