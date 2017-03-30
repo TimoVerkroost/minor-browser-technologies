@@ -67,6 +67,9 @@ input[type="text"]:focus {
 
 input[type="submit"],
 .backToStart {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: rgb(40, 41, 45);
   border: .1em solid rgb(40, 41, 45);
   text-transform: uppercase;
