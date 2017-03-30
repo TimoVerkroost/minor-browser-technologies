@@ -4,6 +4,15 @@
   <section>
     <h2>Your "Nerdy" shirt is created with the following text:</h2>
     <h3>{{create.create}}</h3>
-    <span>Your selected size: <strong>{{create.size}}</strong></span>
+    <span>Your selected size: <strong>{{create.size}}</strong></span><br>
+    <a href="/" class="backToStart" title="Back to start">Back to start</a>
   </section>
-</main>
+</main><!--
+--><aside>
+  <div id="shirtOverlay">
+    <br>
+    <span id="shirtText">{{create.create}}</span>
+    <br>
+    <img src="/images/black-shirt.png" alt="Black T-shirt with text: {{create.create}}" title="Black T-shirt with text: {{create.create}}" width="250" />
+  </div>
+</aside>

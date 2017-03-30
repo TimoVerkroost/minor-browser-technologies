@@ -7,7 +7,7 @@ var shirtTextStorage = new LocalStorage('./storage/shirt-txt');
 
 var pageOptions =
   {
-    title: "Final assignment"
+    title: "Nerdy shirts!"
   };
 
 router.get('/', function(req, res, next) {

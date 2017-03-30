@@ -17,23 +17,35 @@
   <section>
     <h2>Create your "Nerdy" shirt:</h2>
     <form id="createShirt" action="/create" method="post">
-      <label>
-        <span>Text:</span><br>
-        <input type="radio" name="create" value="{{dataSaved.shirt1}}" required> {{dataSaved.shirt1}}<br>
-        {{#if dataSaved.shirt2}}<input type="radio" name="create" value="{{dataSaved.shirt2}}"> {{dataSaved.shirt2}}<br>{{/if}}
-        {{#if dataSaved.shirt3}}<input type="radio" name="create" value="{{dataSaved.shirt3}}"> {{dataSaved.shirt3}}{{/if}}
-      </label>
+
+        <strong>Nerdy text:</strong><br>
+        <label><input type="radio" name="create" value="{{dataSaved.shirt1}}" required checked> <span>{{dataSaved.shirt1}}</span></label><br>
+        {{#if dataSaved.shirt2}}
+          <label><input type="radio" name="create" value="{{dataSaved.shirt2}}"> <span>{{dataSaved.shirt2}}</span></label><br>
+        {{/if}}
+        {{#if dataSaved.shirt3}}
+          <label><input type="radio" name="create" value="{{dataSaved.shirt3}}"> <span>{{dataSaved.shirt3}}</span></label>
+        {{/if}}
+
       <br>
-      <label>
-        <span>Size:</span><br>
-        <input type="radio" name="size" value="S" required> S<br>
-        <input type="radio" name="size" value="M"> M<br>
-        <input type="radio" name="size" value="L"> L
-      </label>
+      <br>
+        <strong>T-Shirt size:</strong><br>
+        <label><input type="radio" name="size" value="S" required checked> S</label><br>
+        <label><input type="radio" name="size" value="M"> M</label><br>
+        <label><input type="radio" name="size" value="L"> L</label>
       <br>
       <label>
         <input type="submit" value="Create" id="submit">
       </label>
+      <a href="/" class="backToStart" title="Back to start">Back to start</a>
     </form>
   </section>
-</main>
+</main><!--
+--><aside>
+  <div id="shirtOverlay">
+    <br>
+    <span id="shirtText">Here comes your super nerdy text!</span>
+    <br>
+    <img src="/images/black-shirt.png" alt="Black T-shirt" title="Black T-shirt" width="250" />
+  </div>
+</aside>
