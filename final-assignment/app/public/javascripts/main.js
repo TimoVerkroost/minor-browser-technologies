@@ -47,8 +47,23 @@
       if (localStorage.getItem("name") !== null) {
         // Fill in the stored values
         document.getElementById("nameNew").value = localStorage.name;
+      }
+
+      // Get form values
+      if (localStorage.getItem("shirtText1") !== null) {
+        // Fill in the stored values
         document.getElementById("shirtText1").value = localStorage.shirtText1;
+      }
+
+      // Get form values
+      if (localStorage.getItem("shirtText2") !== null) {
+        // Fill in the stored values
         document.getElementById("shirtText2").value = localStorage.shirtText2;
+      }
+
+      // Get form values
+      if (localStorage.getItem("shirtText3") !== null) {
+        // Fill in the stored values
         document.getElementById("shirtText3").value = localStorage.shirtText3;
       }
     }

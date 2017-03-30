@@ -114,6 +114,10 @@ input[type="submit"]:focus,
     background-color: #27ae60;
   }
 
+  label {
+    display: block;
+  }
+
 }
 
 label span {
