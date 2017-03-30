@@ -39,7 +39,7 @@ First I started with the plain HTML, I did this with a basic form tag and some i
   When the user decide to create the shirt he/she can choice between some sizes and also that input will be displayed as feedback to the user.
   
 #### Not supported
-* -
+* None
 
 ### CSS
 To make the HTML more shiny I styled the page with CSS. With this I can make the UX for the user better. Of course the HTML is the foundation of the page so the user can use the page without the CSS but it's less shiny. I tried to make the CSS cross browser so it works also in the older browser like IE8. Unfortunately not everything works in the older browser. But the most essential styling works.
