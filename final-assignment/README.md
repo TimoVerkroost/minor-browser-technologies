@@ -56,7 +56,7 @@ Use of LocalStorage to store data of the user that isn't needed to succesfully g
 
 If the user fills in the text field for the shirt text, the text on the shirt will change in what the user added. This is live so change are directly visible. Another live change is when the user changes his size the shirt will scale (smaller size = smaller shirt, bigger size = bigger shirt).
 
-**Note:** HTML5Shiv is added for HTML5 support in older browsers. This is a JavaScript file.
+**Note:** [HTML5shiv](https://github.com/aFarkas/html5shiv) is added for HTML5 support in older browsers. This is a JavaScript file.
 
 #### Not supported
 * addEventListener - IE8.
@@ -71,6 +71,8 @@ If the user fills in the text field for the shirt text, the text on the shirt wi
 ## Sources
 * [Canisuse](http://caniuse.com/#search=web%20storage)
 * [Whatwg](https://html.spec.whatwg.org/multipage/webstorage.html#webstorage)
+* [CSS tricks](https://css-tricks.com/)
+* [HTML5shiv](https://github.com/aFarkas/html5shiv)
 
 ## Licence
 MIT © Timo Verkroost
