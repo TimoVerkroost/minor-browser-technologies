@@ -21,6 +21,24 @@ To make the HTML more shiny I styled the page with CSS. With this I can make the
 
 ### JavaScript
 
+## Tested on devices / browsers
+* Apple iPod - deviceLAB
+* Apple iPad - deviceLAB
+* Microsoft Surface - deviceLAB
+* Google Nexus - deviceLAB
+* Samsung Galaxy - deviceLAB
+* Kindle - deviceLAB
+* Nokia Windows Phone - deviceLAB
+* IE8 Windows 7 - VirtualBox
+* IE9 Windows 7 - VirtualBox
+* IE10 Windows 7 - VirtualBox
+* IE11 Windows 7 - VirtualBox
+* Safari iOS 10.3
+* Safari macOS 10.12.3
+* Goolge Chrome 57 on macOS 10.12.3
+* Opera 43 on macOS 10.12.3
+* FireFox 52 on macOS 10.12.3
+
 ## Sources
 * [Canisuse](http://caniuse.com/#search=web%20storage)
 * [Whatwg](https://html.spec.whatwg.org/multipage/webstorage.html#webstorage)
