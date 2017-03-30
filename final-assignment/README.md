@@ -63,10 +63,10 @@ If the user fills in the text field for the shirt text, the text on the shirt wi
 
 ## Screenshots
 ### Without CSS
-![Without CSS](https://github.com/TimoVerkroost/minor-browser-technologies/tree/master/final-assignment/repo-images/without-css.png "Without CSS")
+![Without CSS](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/final-assignment/repo-images/without-css.png "Without CSS")
 
 ### With CSS
-![With CSS](https://github.com/TimoVerkroost/minor-browser-technologies/tree/master/final-assignment/repo-images/with-css.png "With CSS")
+![With CSS](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/final-assignment/repo-images/with-css.png "With CSS")
 
 ## Sources
 * [Canisuse](http://caniuse.com/#search=web%20storage)
