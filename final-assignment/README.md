@@ -25,7 +25,6 @@ Use of LocalStorage to store data of the user that isn't needed to succesfully g
 If the user fills in the text field for the shirt text, the text on the shirt will change in what the user added. This is live so change are directly visible. Another live change is when the user changes his size the shirt will scale (smaller size = smaller shirt, bigger size = bigger shirt). 
 
 ## Tested on devices / browsers
-
 | **Device**              | **Browser / OS**     | 
 | ----------------------- |:--------------------:|
 | Apple iPod              | deviceLAB  |
