@@ -1,6 +1,6 @@
 (function(){
   "use strict";
-  // Form data save
+  // Form data save Search shirts
   if (typeof(Storage) !== "undefined") {
     // Set form values
     var nameShirtForm = document.getElementById("nameShirt");
@@ -21,7 +21,7 @@
         document.getElementById("name").value = localStorage.name;
       }
     }
-    // Set form values
+    // Set form values New shirt
     var nameNewForm = document.getElementById("tshirt");
     // check if form is on page
     if (nameNewForm) {
