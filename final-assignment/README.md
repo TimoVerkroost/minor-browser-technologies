@@ -28,12 +28,12 @@ If the user fills in the text field for the shirt text, the text on the shirt wi
 
 | **Device**              | **Browser / OS**     | 
 | ----------------------- |:--------------------:|
-| Apple iPod              | Default / deviceLAB  |
-| Apple iPad              | Default / deviceLAB  | 
-| Microsoft Surface       | Default / deviceLAB  |
-| Google Nexus            | Default / deviceLAB  |  
-| Kindle                  | Default / deviceLAB  |
-| Nokia Windows Phone     | Default / deviceLAB  |
+| Apple iPod              | deviceLAB  |
+| Apple iPad              | deviceLAB  | 
+| Microsoft Surface       | deviceLAB  |
+| Google Nexus            | deviceLAB  |  
+| Kindle                  | deviceLAB  |
+| Nokia Windows Phone     | deviceLAB  |
 | VirtualBox              | IE8     / Windows 7  |
 | VirtualBox              | IE9     / Windows 7  |
 | VirtualBox              | IE10    / Windows 7  |
