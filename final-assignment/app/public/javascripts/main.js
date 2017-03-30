@@ -75,6 +75,24 @@
       shirt3.addEventListener("click", function () {
         shirtText.innerHTML = shirt3.value;
       });
+
+      // Size joke
+      var tshirtImg = document.getElementById("shirtOverlay");
+      var sizeS = document.getElementById("sizeS");
+      var sizeM = document.getElementById("sizeM");
+      var sizeL = document.getElementById("sizeL");
+      // sizeS
+      sizeS.addEventListener("click", function () {
+        tshirtImg.style.transform = "scale(0.5)";
+      });
+      // sizeM
+      sizeM.addEventListener("click", function () {
+        tshirtImg.style.transform = "scale(0.75)";
+      });
+      // sizeL
+      sizeL.addEventListener("click", function () {
+        tshirtImg.style.transform = "scale(1)";
+      });
     }
 
     // Check of form

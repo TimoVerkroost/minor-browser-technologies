@@ -125,6 +125,8 @@ label span::after {
 #shirtOverlay {
   position: relative;
   text-align: center;
+  transition: all .2s ease-in-out;
+  transform: scale(0.75);
 }
 
 #shirtOverlay > span {
@@ -137,6 +139,8 @@ label span::after {
   color: #FFFFFF;
   font-size: 1.1em;
   font-weight: bold;
+  word-wrap: break-word;
+  transition: all .2s ease-in;
 }
 
 .backToStart {
