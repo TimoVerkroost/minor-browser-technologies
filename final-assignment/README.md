@@ -6,7 +6,7 @@ The user visit the website where he/she can assemble a t-shirt with some "nerdy"
 
 ## Browser support
 
-## Accessibility issues
+## Accessibility
 
 ## Structure
 The base of my application is server-side where some variables are saved that makes us less dependent of the user it's browser. To do this I used: NodeJS with an Express server + Handlebars templating. This will serve a static HTML page but I can handle some input server-side so I can make it more personal for the user.
@@ -20,25 +20,33 @@ First I started with the plain HTML, I did this with a basic form tag and some i
 To make the HTML more shiny I styled the page with CSS. With this I can make the UX for the user better. Of course the HTML is the foundation of the page so the user can use the page without the CSS but it's less shiny. I tried to make the CSS cross browser so it works also in the older browser like IE8. Unfortunately not everything works in the older browser. But the most essential styling works.
 
 ### JavaScript
+Use of LocalStorage to store data of the user that isn't needed to succesfully go through the website, only to make the UX better so the user doesn't have to fill in all the values all over again.
+
+If the user fills in the text field for the shirt text, the text on the shirt will change in what the user added. This is live so change are directly visible. Another live change is when the user changes his size the shirt will scale (smaller size = smaller shirt, bigger size = bigger shirt). 
 
 ## Tested on devices / browsers
-* Apple iPod - deviceLAB
-* Apple iPad - deviceLAB
-* Microsoft Surface - deviceLAB
-* Google Nexus - deviceLAB
-* Samsung Galaxy - deviceLAB
-* Kindle - deviceLAB
-* Nokia Windows Phone - deviceLAB
-* IE8 Windows 7 - VirtualBox
-* IE9 Windows 7 - VirtualBox
-* IE10 Windows 7 - VirtualBox
-* IE11 Windows 7 - VirtualBox
-* Safari iOS 10.3
-* Safari macOS 10.12.3
-* Goolge Chrome 57 on macOS 10.12.3
-* Opera 43 on macOS 10.12.3
-* FireFox 52 on macOS 10.12.3
+
+| **Device**              | **Browser / OS**     | 
+| ----------------------- |:--------------------:|
+| Apple iPod              | Default / deviceLAB  |
+| Apple iPad              | Default / deviceLAB  | 
+| Microsoft Surface       | Default / deviceLAB  |
+| Google Nexus            | Default / deviceLAB  |  
+| Kindle                  | Default / deviceLAB  |
+| Nokia Windows Phone     | Default / deviceLAB  |
+| VirtualBox              | IE8     / Windows 7  |
+| VirtualBox              | IE9     / Windows 7  |
+| VirtualBox              | IE10    / Windows 7  |
+| VirtualBox              | IE11    / Windows 7  |
+| iPhone 5s               | Safari  / iOS 10.3   |
+| MacBook                 | Safari  / macOS 10.12.3 |
+| MacBook                 | Chrome 57  / macOS 10.12.3 |
+| MacBook                 | Opera 43  / macOS 10.12.3 |
+| MacBook                 | FireFox 52  / macOS 10.12.3 |
 
 ## Sources
 * [Canisuse](http://caniuse.com/#search=web%20storage)
 * [Whatwg](https://html.spec.whatwg.org/multipage/webstorage.html#webstorage)
+
+## Licence
+MIT © Timo Verkroost
