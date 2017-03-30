@@ -19,12 +19,12 @@
     <form id="createShirt" action="/create" method="post">
 
         <strong>Nerdy text:</strong><br>
-        <label><input type="radio" name="create" value="{{dataSaved.shirt1}}" required checked> <span>{{dataSaved.shirt1}}</span></label><br>
+        <label><input type="radio" id="activateShirt1" name="create" value="{{dataSaved.shirt1}}" required checked> <span>{{dataSaved.shirt1}}</span></label><br>
         {{#if dataSaved.shirt2}}
-          <label><input type="radio" name="create" value="{{dataSaved.shirt2}}"> <span>{{dataSaved.shirt2}}</span></label><br>
+          <label><input type="radio" id="activateShirt2" name="create" value="{{dataSaved.shirt2}}"> <span>{{dataSaved.shirt2}}</span></label><br>
         {{/if}}
         {{#if dataSaved.shirt3}}
-          <label><input type="radio" name="create" value="{{dataSaved.shirt3}}"> <span>{{dataSaved.shirt3}}</span></label>
+          <label><input type="radio" id="activateShirt3" name="create" value="{{dataSaved.shirt3}}"> <span>{{dataSaved.shirt3}}</span></label>
         {{/if}}
 
       <br>

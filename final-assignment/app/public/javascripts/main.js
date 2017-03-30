@@ -52,6 +52,64 @@
         document.getElementById("shirtText3").value = localStorage.shirtText3;
       }
     }
+    // Check of form
+    var createShirt = document.getElementById("createShirt");
+    if (createShirt) {
+      var shirtText = document.getElementById("shirtText");
+      var shirt1 = document.getElementById("activateShirt1");
+      var shirt2 = document.getElementById("activateShirt2");
+      var shirt3 = document.getElementById("activateShirt3");
+      // Default text
+      window.addEventListener("load", function () {
+        shirtText.innerHTML = shirt1.value;
+      });
+      // Shirt1 text
+      shirt1.addEventListener("click", function () {
+        shirtText.innerHTML = shirt1.value;
+      });
+      // Shirt2 text
+      shirt2.addEventListener("click", function () {
+        shirtText.innerHTML = shirt2.value;
+      });
+      // Shirt3 text
+      shirt3.addEventListener("click", function () {
+        shirtText.innerHTML = shirt3.value;
+      });
+    }
+
+    // Check of form
+    var tshirtForm = document.getElementById("tshirt");
+    if (tshirtForm) {
+      var shirtTextHome = document.getElementById("shirtText");
+      var shirtTextHome1 = document.getElementById("shirtText1");
+      var shirtTextHome2 = document.getElementById("shirtText2");
+      var shirtTextHome3 = document.getElementById("shirtText3");
+      // Shirt1 text
+      shirtTextHome1.addEventListener("click", function () {
+        shirtTextHome.innerHTML = shirtTextHome1.value;
+      });
+      // Shirt2 text
+      shirtTextHome2.addEventListener("click", function () {
+        shirtTextHome.innerHTML = shirtTextHome2.value;
+      });
+      // Shirt3 text
+      shirtTextHome3.addEventListener("click", function () {
+        shirtTextHome.innerHTML = shirtTextHome3.value;
+      });
+
+      // Shirt1 text
+      shirtTextHome1.addEventListener("keyup", function () {
+        shirtTextHome.innerHTML = shirtTextHome1.value;
+      });
+      // Shirt2 text
+      shirtTextHome2.addEventListener("keyup", function () {
+        shirtTextHome.innerHTML = shirtTextHome2.value;
+      });
+      // Shirt3 text
+      shirtTextHome3.addEventListener("keyup", function () {
+        shirtTextHome.innerHTML = shirtTextHome3.value;
+      });
+    }
 
   }
 }());
