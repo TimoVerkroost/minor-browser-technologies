@@ -68,6 +68,25 @@ If the user fills in the text field for the shirt text, the text on the shirt wi
 ### With CSS
 ![With CSS](https://github.com/TimoVerkroost/minor-browser-technologies/blob/master/final-assignment/repo-images/with-css.png "With CSS")
 
+## Build / Install and start project 
+
+### Clone this repo
+
+```
+  git clone https://github.com/TimoVerkroost/minor-browser-technologies
+  cd minor-browser-technologies/final-assignment/app
+```
+
+### Install the dependencies
+```
+npm install
+```
+
+### Start server
+```
+npm start
+```
+
 ## Sources
 * [Canisuse](http://caniuse.com/#search=web%20storage)
 * [Whatwg](https://html.spec.whatwg.org/multipage/webstorage.html#webstorage)
